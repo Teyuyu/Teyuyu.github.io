@@ -1,0 +1,55 @@
+body {
+			margin: 0;
+			font-family: Arial, sans-serif;
+			min-height: 100vh;
+			background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+			background-image: url('images/th.jpg'), linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+.auth-dropdown {
+							position: relative;
+							display: inline-block;
+						}
+
+.auth-dropdown-content {
+							display: none;
+							position: absolute;
+							right: 0;
+							top: 110%;
+							background: rgba(255,255,255,0.95);
+							min-width: 100px;
+							box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+							border-radius: 8px;
+							z-index: 1001;
+							padding: 6px 0;
+						}
+
+.auth-dropdown-content button {
+							background: none;
+							color: #3498db;
+							border: none;
+							width: 100%;
+							text-align: left;
+							padding: 8px 18px;
+							font-size: 14px;
+							border-radius: 0;
+							cursor: pointer;
+							transition: background 0.2s;
+						}
+                       .auth-dropdown-content button:hover {
+							background: #eaf6ff;
+						}                   
+div.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: center;
+     border-radius: 40px;
+}
